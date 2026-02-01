@@ -1,0 +1,172 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color:#f2c41d;
+    
+    
+   
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;  
+    align-items: center;
+    padding: 120px 180px;
+    font-size: 60px;
+    font-style: 900;
+    color: #ffffff;
+    
+}
+.logo {
+    font-size: 80px;
+    font-style: serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin-right: 20%;
+}
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 1200;
+    font-size: 80px;
+    gap: 80px;
+}
+
+
+/* white block */
+.hero {
+    background: #ffffff;
+    width: 70%;
+    margin: 40px auto;
+    height: 1200px;
+    border-radius: 20px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+
+.hero-left h1 {
+    font-size: 80px;
+    color: #000000;
+    
+}
+
+.hero-left span {
+    color: #ff003c;
+}
+
+.hero-left h2 {
+    margin: 15px 0;
+    font-size: 80px;
+    color: #fc071b;
+}
+
+.hero-left h3 {
+    display: inline-block;
+    padding: 8px 18px ;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+.download-btn{
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}   
+.social-icons {
+    margin: 15px 0;
+    display: flex;
+    gap: 20px;
+    font-size: 120px;
+    
+}
+.social-icons a{
+    text-decoration: none;
+    margin-right: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+    
+}
+.social-icons a fa-github{
+    color:#ffffff;
+}
+.social-icons a fa-linkedin{
+    color:#0a66c2;
+}
+.social-icons a fa-twitter{
+    color:#1da1f2;
+}
+.social-icons a:hover {
+    scale: 1.2;
+    
+}
+
+/* Right */
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 30% 30% 30% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.image img {
+    width: 600px;
+    height: 800px;
+    border-radius: 8%;
+    margin-right: 350px;
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+.hero-left p{
+    font-size: 50px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    max-width: 1200px;
+}
+.hero-left ul{
+    list-style-type: square;
+    margin-left: 20px;
+}   
+.hero-left li{
+    font-size: 50px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    max-width: 1200px;
+}   
