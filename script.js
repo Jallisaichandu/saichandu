@@ -76,5 +76,5 @@ function showcontact(){
 }
 function toggleMenu() {
   menu.classList.toggle("show");
-  document.querySelector(".hamburger").classList.toggle("active");
+  
 }
