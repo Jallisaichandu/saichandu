@@ -1,8 +1,13 @@
 const content =document.getElementById("content");
+const hero = document.querySelector(".hero");
+const menu = document.getElementById("mobileMenu");
+
  
 showhome();
 
 function showhome(){
+    hero.classList.add("show-image");     
+    menu.classList.remove("show"); 
     content.innerHTML=`
    <h1>Hi ,<br>I'm <span>SAI CHANDU JALLI</span></h1>
     <h2>Developer</h2>
@@ -25,6 +30,8 @@ function showhome(){
 
 }
 function showabout(){
+    hero.classList.add("show-image");      
+  menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>About Me</h2>
     <p>Hello! I'm Sai Chandu Jalli, a passionate developer with a knack for creating innovative solutions. With a strong foundation in programming and a love for technology, I enjoy turning ideasinto reality through code. When I'm not coding, you can find me exploring new tech trends or working on personal projects to enhance my skills.</p> 
@@ -32,6 +39,8 @@ function showabout(){
 }
 
 function showskills(){
+    hero.classList.add("show-image");      
+  menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>My Skills</h2>
     <ul>
@@ -45,6 +54,8 @@ function showskills(){
     `;
 }
 function showworks(){
+    hero.classList.add("show-image");      
+  menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>My Works</h2>
     <p>Here are some of my projects:</p>
@@ -55,9 +66,15 @@ function showworks(){
     `;
 }
 function showcontact(){
+    hero.classList.add("show-image");      
+  menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>Contact Me</h2>
     <p>Mobile: +91 7674082671 / 7207020327</p>
     <p>Gmail: chandusai.jalli@gmail.com</p>
     `;
+}
+function toggleMenu() {
+  menu.classList.toggle("show");
+  document.querySelector(".hamburger").classList.toggle("active");
 }
