@@ -30,7 +30,7 @@ function showhome(){
 
 }
 function showabout(){
-    hero.classList.add("show-image");      
+    hero.classList.remove("show-image");      
   menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>About Me</h2>
@@ -39,7 +39,7 @@ function showabout(){
 }
 
 function showskills(){
-    hero.classList.add("show-image");      
+    hero.classList.remove("show-image");      
   menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>My Skills</h2>
@@ -54,7 +54,7 @@ function showskills(){
     `;
 }
 function showworks(){
-    hero.classList.add("show-image");      
+    hero.classList.remove("show-image");      
   menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>My Works</h2>
@@ -66,7 +66,7 @@ function showworks(){
     `;
 }
 function showcontact(){
-    hero.classList.add("show-image");      
+    hero.classList.remove("show-image");      
   menu.classList.remove("show"); 
     content.innerHTML=`
     <h2>Contact Me</h2>
