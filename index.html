@@ -1,43 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sai Chandu Portfolio</title>
     <link rel="stylesheet" href="port.css">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body >
-    
-   
-    <!-- Navbar -->
+
+<body>
+
+    <!-- NAVBAR -->
     <header class="navbar">
-        <div class="logo">CHANDU</div>
-        <! -- Hamburger Menu -->
+        <div class="logo">Sai <span>Chandu</span></div>
         <div class="hamburger" onclick="toggleMenu()">☰</div>
-            <div class="nav" id="mobileMenu">
-            <a href="#" onclick="showhome()">Home</a>
-            <a href="#" onclick="showabout()">About</a>
-            <a href="#" onclick="showskills()">Skills</a>
-            <a href="#" onclick="showworks()">Works</a>
-            <a href="#" onclick="showcontact()">Contact</a>
-        </div>
+        <nav class="nav" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="chandu cv.pdf" download class="resume-btn">Download Resume</a>
     </header>
 
-    <!-- white content block -->
-    <section class="hero">
-        <div class="hero-left" id="content">
-
-        </div>
-
-        <div class="hero-right">
-            <div class="image">
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="tag">👋 Hello, I'm</div>
+            <h1>Sai Chandu <span>Jalli</span></h1>
+            <div class="profile-img">
                 <img src="chandu.jpg" alt="Profile">
             </div>
+            <h2>Computer Science Engineering</h2>
+            <p>
+                Motivated and detail-oriented Computer Science student
+                with strong knowledge in programming,
+                web development, AI technologies,   
+                problem solving, and software development.
+            </p>
         </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-tag">About Me</div>
+        <h1>Building Solutions, <span>Not Just Code</span></h1>
+        <p class="section-desc">
+            Passionate Computer Science student focused on creating
+            innovative solutions using AI, web development, and modern technologies.
+        </p>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="icon">🎓</div>
+                <h2>Education</h2>
+                <h3>B.Tech in Computer Science Engineering (AI & ML)</h3>
+                <p>Talla Padmavathi College of Engineering</p>
+                <p>(2021 – 2025)</p>
+            </div>
+            <div class="about-card">
+                <h2>Who I Am</h2>
+                <p>
+                    Passionate Computer Science student focused on
+                    software development, Artificial Intelligence,
+                    Machine Learning, and web technologies.
+                </p>
+                <p>
+                    I enjoy building innovative projects and exploring
+                    modern technologies that solve real-world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="section-tag">My Skills</div>
+        <h1>Technical <span>Expertise</span></h1>
+        <p class="section-desc">
+            A comprehensive skill set developed through education,
+            internships, and personal projects.
+        </p>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h2>Programming Languages</h2>
+                <div class="skill-tags">
+                    <span>C</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h2>Web Development</h2>
+                <div class="skill-tags">
+                    <span>HTML & CSS</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>        
+                </div>
+            </div>
+            <div class="skill-card">
+                <h2>AI/ML & Tools</h2>
+                <div class="skill-tags">
+                    <span>Machine Learning</span>
+                    <span>Git & GitHub</span>
+                    <span>ServiceNow</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h2>Other Skills</h2>   
+                <div class="skill-tags">
+                    <span>Problem Solving</span>
+                    <span>Team Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="section-tag">Projects</div>
+        <h1>Featured <span>Projects</span></h1>
+        <p class="section-desc">
+            A showcase of my best work demonstrating my skills in AI/ML,
+            web development, and software development.
+        </p>
+        <div class="project-grid">
+            <div class="project-card">
+                <h2>Haptic Communication System</h2>
+                <p>
+                    A haptic communication system uses tactile feedback—such as vibrations,
+                    forces, or motions—to transmit information or simulate touch.
+                    It acts as an additional sensory channel, often complementing audio and
+                    visual data to deepen immersion in virtual environments,
+                    enable remote physical therapy, and assist those with sensory impairments.
+                </p>
+            </div>
+        </div>
+        <div class="project-card">
+
+    <h2>🚀 ServiceNow Ticket Management System</h2>
+
+    <p>
+        A full-stack enterprise Ticket Management System inspired by ServiceNow,
+        developed using React.js and Spring Boot. The application enables secure
+        JWT authentication, role-based access control, ticket lifecycle management,
+        dashboard analytics, email notifications, attachment management,
+        and RESTful API integration with MySQL.
+    </p>
+
+
+    <div class="project-buttons">
+
+        <a
+            href="https://service-now-clone-frontend.vercel.app"
+            target="_blank"
+            class="project-btn live">
+               🌐 Live Demo
+        </a>
+
         
-   <script src="script.js"></script>
+    </div>
+
+</div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section">
+        <div class="section-tag">Achievements</div>
+        <h1>Certificates & <span>Internships</span></h1>
+        <p class="section-desc">
+            Certifications and internship experiences that enhanced my technical skills.
+        </p>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <h2>VOISE Internship</h2>
+                <p>Data Analytics using AI-LLMs</p>
+            </div>
+            <div class="certificate-card">
+                <h2>ServiceNow Internship</h2>
+                <p>Certified system administrator in ServiceNow Fundamentals and ITSM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+        <div class="section-tag">Get In Touch</div>
+        <h1>Let's <span>Connect</span></h1>
+        <p class="section-desc">
+            Have a project in mind or want to collaborate?
+            Feel free to reach out to me anytime.
+        </p>
+
+        <div class="contact-grid">
+
+            <!-- LEFT CARD -->
+            <div class="contact-card">
+                <h2>Contact Information</h2>
+                <p class="contact-text">
+                    I'm always open to discussing new projects,
+                    internships, opportunities, and collaborations.
+                </p>
+
+                <div class="info-box">
+                    <div class="info-icon"><i class="fas fa-phone"></i></div>
+                    <div class="info-details">
+                        <h4>Phone</h4>
+                        <span>+91 7674082671</span>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="info-details">
+                        <h4>Email</h4>
+                        <span>saichandujalli123@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <span>Hyderabad, India</span>
+                    </div>
+                </div>
+
+                <div class="follow-me">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/Jallisaichandu"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jalli-saichandu630/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT CARD -->
+            <div class="contact-card">
+                <h2>Send a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="from_name" placeholder="Enter your name" required>
+                    <input type="email" name="from_email" placeholder="Enter your email" required>
+                    <textarea name="message" placeholder="Write your message..." required></textarea>
+                    <button type="submit">Send Message ✈</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+<!-- FOOTER -->
+    <footer class="footer">
+    <div class="footer-content">
+        <h2>SAI CHANDU <span>JALLI</span></h2>
+
+        <p>Building innovative web solutions and AI-powered applications.</p>
+        <p>Passionate about creating modern and impactful digital experiences.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:yourmail@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 SAI CHANDU JALLI - Made with ❤️ in India
+        </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
